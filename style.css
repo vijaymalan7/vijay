@@ -1,0 +1,87 @@
+
+.leftSection {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.demo{
+    border: rgb(223, 212, 212) solid ;
+    margin: 10px;
+    width: auto;
+}
+.leftSection .buttons{
+    padding: 50px 0;
+}
+.leftSection .btn {
+    padding: 12px;
+    background: #1e2167;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.leftSection .buttons a :hover{
+    color: #010025;
+}
+.purple {
+    color: rgb(170, 107, 228);
+}
+
+#element {
+    color: rgb(170, 107, 228);
+}
+.about .socal{
+    display: flex;
+}
+.about .socal a{
+    color: #ff884b;
+    padding: 0 0.4rem;
+    border-radius: 2rem;
+    transition: all 0.3s ease;
+}
+.about .socal a:hover{
+    color: #ff577f;
+}
+
+.foursection span{
+    color: aqua;
+    object-position: right top;
+  }
+  .foursection{
+      max-width: 80vw;
+      margin: auto;
+      /* height: 70vh; */
+      height: auto;
+  
+  }    
+  .card-wappers .card {
+      
+      padding: 3rem 2rem;
+      padding-top: 4rem;
+      position: relative;
+      text-align: center;
+      transition: 0.3s ease;
+      margin-bottom: 2rem;
+      
+  }
+  .card-wappers {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      list-style: none;
+      grid-column-gap: 2rem;
+      color: gray;
+      
+  }
+  .card-wappers .card a{
+      text-decoration: none;
+      color:rgb(19, 8, 40);
+      font-size: 1.01rem;
+  }
+  .foursection .card-wappers .card :hover{
+      color: rgb(60, 21, 175);
+  }
+/* .foursection .card img{
+    width: 50px;
+    height: 50px;
+} */

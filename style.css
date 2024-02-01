@@ -53,6 +53,7 @@
       margin: auto;
       /* height: 70vh; */
       height: auto;
+      display: grid;
   
   }    
   .card-wappers .card {
@@ -68,7 +69,7 @@
   .card-wappers {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
-      list-style: none;
+      list-style:none;
       grid-column-gap: 2rem;
       color: gray;
       
@@ -81,10 +82,93 @@
   .foursection .card-wappers .card :hover{
       color: rgb(60, 21, 175);
   }
+   .input-warp{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 2rem;
+    margin-bottom: 1rem;
+}
+ .input-warp2{
+    display: flex;
+    flex-direction: column;
+}
+ .input-warp2 input{
+    margin-bottom: 1rem;
+}
+ .input-warp2 textarea{
+    padding: 1rem;
+}
+.input{
+    padding: 1rem;
+}
+ .btn-warper{
+    text-align: center;
+    margin-top: 2rem;
+ }
+
+ /* gfgsdfg
+ .container{
+    padding-top: 4rem;
+}
+ .card-wappers{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 2rem;
+    
+}
+.card-wappers .card{
+    padding: 3rem 2rem;
+    padding-top: 4rem;
+    position: relative;
+    text-align: center;
+    transition: 0.3s ease;
+    margin-bottom: 2rem;
+}
+    
+ .card-wappers .card .icon{
+    width: 25%;
+    height: 50%;
+    color: var(--secondary);
+    position: absolute;
+    top: -3.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: all .3s ease;
+}
+ .card-wappers .card:hover .icon{
+    color: var(--primary);
+
+}
+.card-wappers .card a, .card-wappers .card h6{
+    text-decoration: none;
+    color: var(--ternary);
+    transition: all .3s ease;
+    
+}
+ .card-wappers .card a:hover{
+    color: var(--primary);
+}
+ .card-wappers .card h6:hover{
+    color: var(--primary);
+} */
 .container span{
     color: aqua;
 }
-.container {
+
+/* asd;flkajsflkj */
+
+/* body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  } */
+
+  .container {
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);

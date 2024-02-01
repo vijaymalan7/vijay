@@ -50,10 +50,11 @@
   }
   .foursection{
       max-width: 80vw;
-      margin: auto;
+      /* margin-bottom: 10px; */
       /* height: 70vh; */
       height: auto;
       display: grid;
+      /* padding-bottom: 10px; */
   
   }    
   .card-wappers .card {
@@ -105,10 +106,6 @@
     text-align: center;
     margin-top: 2rem;
  }
-
- .container span{
-    color: aqua;
-}
 
 
 /* body {
@@ -166,3 +163,19 @@
   button:hover {
     background-color: #45a049;
   }
+/* sfgasdkfjas */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    /* position: fixed; */
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: #fff9f9;
+    text-decoration: none;
+    margin: 0 10px;
+}

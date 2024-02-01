@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-        
+
     <title>Vijay Malan - Programmers</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -59,65 +59,32 @@
     </nav>
 
     <div class="container my-4">
-        <h2>Contact Us</h2>
-        <form>
-            <div class="form-group">
-                <label for="exampleFormControlInput1">Email address</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-            </div>
-            <div class="form-group">
-                <label for="exampleFormControlSelect1">Select your Query</label>
-                <select class="form-control" id="exampleFormControlSelect1">
-                    <option>Web</option>
-                    <option>Tech Stack</option>
-                    <option>Technology</option>
-                    <option>Others</option>
-                </select>
-            </div>
-            <div class="form-group row">
-                <div class="col-sm-2">Are you a Member?</div>
-                <div class="col-sm-10">
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" id="gridCheck1">
-                        <label class="form-check-label" for="gridCheck1">
-                            Yes
-                        </label>
-                    </div>
-                </div>
-            </div>
-            <div class="form-group row">
-                <div class="col-sm-2">Are you a Professor?</div>
-                <div class="col-sm-10">
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" id="gridCheck2">
-                        <label class="form-check-label" for="gridCheck2">
-                            Yes
-                        </label>
-                    </div>
-                </div>
-            </div>
-            <div class="form-group row">
-                <div class="col-sm-2">Are you a Coder?</div>
-                <div class="col-sm-10">
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" id="gridCheck3">
-                        <label class="form-check-label" for="gridCheck3">
-                            Yes
-                        </label>
-                    </div>
-                </div>
-            </div>
+        <h2>Contact <span>Us</span></h2>
 
-            <div class="form-group">
-                <label for="exampleFormControlTextarea1">Tell us about yourself</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-            </div>
-            <div class="form-group">
-                <label for="exampleFormControlTextarea2">Elaborate Your Concern</label>
-                <textarea class="form-control" id="exampleFormControlTextarea2" rows="3"></textarea>
-            </div>
-            <button class="btn btn-primary">Submit</button>
-        </form>
+        <div class="container">
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <div class="form-group">
+                    <input type="hidden" name="access_key" value="fe31b3b4-954c-49a1-884f-8e78bbe84645">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+
+                <div class="form-group">
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+
         <br>
         <section id="contact" class="foursection">
             <h1>Contact <span>Me</span></h1>
@@ -136,7 +103,8 @@
 
                 <div class="card">
                     <i class="icon"></i>
-                    <a href="mailto:vijaymalan12@gmail.com" target="_blank"><img src="Gmail-logo.png" alt="gmail logo" height="50px"></a>
+                    <a href="mailto:vijaymalan12@gmail.com" target="_blank"><img src="Gmail-logo.png" alt="gmail logo"
+                            height="50px"></a>
                     <!-- <h2>E-mail us at</h2> -->
                     <!-- <a href="mailto:vijaymalan12@gmail.com " target="_blank">vijaymalan12@gmail.com </a> -->
                     <i class="fas fa-mobile-alt icon"></i>
@@ -144,7 +112,9 @@
 
                 <div class="card">
                     <i class="icon"></i>
-                    <a href="https://www.instagram.com/_itz_vijay/?igshid=YmMyMTA2M2Y%3D" target="_blank"><img src="instaLOgo.avif" alt="insta logo" height="50px"></a>
+                    <a href="https://www.instagram.com/_itz_vijay/?igshid=YmMyMTA2M2Y%3D" target="_blank"><img
+                            src="instaLOgo.avif" alt="insta logo" height="50px">
+                    </a>
                     <!-- <h2>Follow Us On Instagram</h2>
                     <h3>_itz_vijay</h3>
                     <a href="https://www.instagram.com/_itz_vijay/?igshid=YmMyMTA2M2Y%3D" target="_blank">click to
@@ -155,11 +125,12 @@
             </div>
         </section>
 
+
     </div>
 
     <footer class="container">
         <p class="float-right"><a href="#">Back to top</a></p>
-        <p>All 2020-2024 copyrights © reserved | Vijay Malan. </p>
+        <p>All 2024 copyrights © reserved | Vijay Malan. </p>
     </footer>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

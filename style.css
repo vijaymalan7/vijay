@@ -1,17 +1,18 @@
-
 .leftSection {
     font-size: 3rem;
     text-align: center;
 }
 
-.demo{
-    border: rgb(223, 212, 212) solid ;
+.demo {
+    border: rgb(223, 212, 212) solid;
     margin: 10px;
     width: auto;
 }
-.leftSection .buttons{
+
+.leftSection .buttons {
     padding: 50px 0;
 }
+
 .leftSection .btn {
     padding: 12px;
     background: #1e2167;
@@ -21,136 +22,139 @@
     font-size: 20px;
     cursor: pointer;
 }
-.leftSection .buttons a :hover{
+
+.leftSection .buttons a :hover {
     color: #010025;
 }
+
 .purple {
-    color: rgb(170, 107, 228);
+    color: rgb(65, 205, 86);
 }
 
 #element {
-    color: rgb(170, 107, 228);
+    color: rgb(65, 205, 86);
 }
-.about .socal{
+
+.about .socal {
     display: flex;
 }
-.about .socal a{
+
+.about .socal a {
     color: #ff884b;
     padding: 0 0.4rem;
     border-radius: 2rem;
     transition: all 0.3s ease;
 }
-.about .socal a:hover{
+
+.about .socal a:hover {
     color: #ff577f;
 }
 
-.foursection span{
-    color: aqua;
+.foursection span {
+    color: rgb(65, 205, 86);
     object-position: right top;
-  }
-  .foursection{
-      max-width: 80vw;
-      /* margin-bottom: 10px; */
-      /* height: 70vh; */
-      height: auto;
-      display: grid;
-      /* padding-bottom: 10px; */
-  
-  }    
-  .card-wappers .card {
-      
-      padding: 3rem 2rem;
-      padding-top: 4rem;
-      position: relative;
-      text-align: center;
-      transition: 0.3s ease;
-      margin-bottom: 2rem;
-      
-  }
-  .card-wappers {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      list-style:none;
-      grid-column-gap: 2rem;
-      color: gray;
-      
-  }
-  .card-wappers .card a{
-      text-decoration: none;
-      color:rgb(19, 8, 40);
-      font-size: 1.01rem;
-  }
-  .foursection .card-wappers .card :hover{
-      color: rgb(60, 21, 175);
-  }
-   .input-warp{
+}
+
+.foursection {
+    max-width: 80vw;
+    margin-bottom: 10px;
+    height: 70vh;
+    height: auto;
+    display: grid;
+}
+
+.card-wappers .card {
+
+    padding: 3rem 2rem;
+    padding-top: 4rem;
+    position: relative;
+    text-align: center;
+    transition: 0.3s ease;
+    margin-bottom: 2rem;
+
+}
+
+.card-wappers {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    list-style: none;
+    grid-column-gap: 2rem;
+    color: rgb(102, 102, 102);
+
+}
+
+.card-wappers .card a {
+    text-decoration: none;
+    color: rgb(19, 8, 40);
+    font-size: 1.01rem;
+}
+
+.foursection .card-wappers .card :hover {
+    color: rgb(60, 21, 175);
+}
+
+.input-warp {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 2rem;
     margin-bottom: 1rem;
 }
- .input-warp2{
+
+.input-warp2 {
     display: flex;
     flex-direction: column;
 }
- .input-warp2 input{
+
+.input-warp2 input {
     margin-bottom: 1rem;
 }
- .input-warp2 textarea{
+
+.input-warp2 textarea {
     padding: 1rem;
 }
-.input{
+
+.input {
     padding: 1rem;
 }
- .btn-warper{
+
+.btn-warper {
     text-align: center;
     margin-top: 2rem;
- }
+}
 
 
-/* body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-  } */
-
-  .container {
+.container {
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
     /* max-width:max-content; */
     width: 100%;
-  }
+}
 
-  .form-group {
+.form-group {
     margin-bottom: 20px;
-  }
+}
 
-  label {
+label {
     display: block;
     margin-bottom: 8px;
-  }
+}
 
-  input,
-  textarea {
+input,
+textarea {
     width: 100%;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
-  }
+}
 
-  textarea {
+textarea {
     resize: vertical;
-  }
+}
 
-  button {
+button {
     background-color: #4caf50;
     color: #fff;
     padding: 10px 15px;
@@ -158,13 +162,13 @@
     border-radius: 4px;
     cursor: pointer;
     font-size: 16px;
-  }
+}
 
-  button:hover {
+button:hover {
     background-color: #45a049;
-  }
-/* sfgasdkfjas */
-  footer {
+}
+
+footer {
     background-color: #333;
     color: #fff;
     text-align: center;
@@ -178,4 +182,36 @@ footer a {
     color: #fff9f9;
     text-decoration: none;
     margin: 0 10px;
+}
+
+.font {
+    font-family: "Lucida Console", "Courier New", monospace;
+    /* text-align: center; */
+
+}
+
+.divv {
+    /* border: #0c0c0c solid; */
+    margin-top: 20px;
+
+    /* width: 70%; */
+    /* margin-left: 200px; */
+}
+
+.divv h2 {
+    color: grey;
+    text-align: center;
+}
+
+span {
+    color: rgb(46, 200, 77);
+}
+
+.container p {
+    margin: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.social a {
+    color: #4caf50
 }

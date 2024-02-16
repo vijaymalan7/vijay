@@ -215,3 +215,22 @@ span {
 .social a {
     color: #4caf50
 }
+
+.whats {
+    color: black;
+    height: 50px;
+    width: 50px;
+    margin: 20px 40px 20px;
+    position:fixed;
+    bottom: 0;
+    right: 0;
+    /* border: 3px solid #21b214; */
+}
+
+.key-skills {
+    text-align: left;
+    padding: 5px;
+    margin: 5px;
+    font-size: 10px;
+    list-style: none;
+}

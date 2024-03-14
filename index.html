@@ -217,6 +217,9 @@
         <a href="https://www.instagram.com/_itz_vijay/?igshid=YmMyMTA2M2Y%3D" target="_blank"><button
             class="btn">Instagram</button></a>
         <a href="https://vijaymalan7.github.io/myportfolio/"><button class="btn">Portfolio</button></a>
+        <!-- ================ -->
+        <button onclick="showPopup()" class="btn btn-primary">Contact Us!</button>
+
       </div>
     </div>
 
@@ -344,6 +347,36 @@
         </div>
   </div>
 
+  <div id="popupc" class="popup">
+    <div class="popup-content">
+        <span class="close" onclick="closePopupc()">&times;</span> <br>
+        <p>Contact us now.</p>
+        <!-- <a href="contact.html" class="btn btn-success" role="button" aria-pressed="true">Click here!</a> -->
+        <form action="https://api.web3forms.com/submit" method="POST">
+          <div class="form-group">
+              <input type="hidden" name="access_key" value="fe31b3b4-954c-49a1-884f-8e78bbe84645">
+              <!-- <label for="name">Name:</label> -->
+              <input type="text" id="name" placeholder="Name" name="name" required>
+          </div>
+
+          <div class="form-group">
+              <!-- <label for="email">Email:</label> -->
+              <input type="email" id="email" placeholder="Email" name="email" required>
+          </div>
+
+          <div class="form-group">
+              <!-- <label for="message">Message:</label> -->
+              <textarea id="message" name="message" placeholder="Message" rows="2" required></textarea>
+          </div>
+
+          <div class="form-group">
+              <button type="submit">Submit</button>
+              <button type="reset">Reset</button>
+          </div>
+      </form>
+    </div>
+</div>
+
 <script>
   document.addEventListener('DOMContentLoaded', function () {
     setTimeout(function () {
@@ -351,7 +384,12 @@
         document.getElementById('popup').style.display = 'block';
     }, 6000); // 2 minutes in milliseconds
 });
-
+function showPopup() {
+        document.getElementById('popupc').style.display = 'block';
+    }
+function closePopupc() {
+    document.getElementById('popupc').style.display = 'none';
+}
 function closePopup() {
     // Close the popup
     document.getElementById('popup').style.display = 'none';
